@@ -1,99 +1,74 @@
 * {
-    margin: 980;
-    padding: 20;
+    margin: 3px 30px;
+    padding: 0;
     outline: none;
 }
 
 header {
     background: white;
     width: 100%;
-    height: 60px;
+    height: 80px;     
 }
 
 .logo-parent {
+    width: 30%;
+    height: 100%;
     float: left;
-    padding: 16px;
-    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 6px 70px 3px 25px;
 }
 
 .logo-parent img {
-    height: 50%;
+    height: 60%;
 }
 
+a {
+   text-decoration: none; 
+}
 
-#divBusca{
-    background-color:#ffff;
-    border:solid 1px;
-    border-radius:15px;
-    width:300px;
+.menu {
     height: 100%;
-    float: right ;
-  }
-  
-  #txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
-  }
+    float: left;
+    display: flex;
+    align-items: center;
+}
 
-  .modal-container {
-      width: 100vw;
-      height: 100vh;
-      background: rgba(0, 0, 0, .5);
-      position: fixed;
-      top: 0px;
-      left: 0px;
-      z-index: 2000;
-      display: none;
-      justify-content: center;
-      align-items: center;
-      
-  }
+.menu ul {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end ;
+}
 
-  .modal-container.mostrar {
-      display: flex;
-  }
+.menu ul li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px !important;
+}
 
-  .modal{
-      background: white;
-      width: 60%;
-      min-width: 300px;
-      padding: 40px;
-      border-radius: 10px;
-      box-shadow: 0 0 0 10px white;
-      position: relative;
-  }
+.busca {
+    width: 300px;
+    height: 50px;  
+    background: url("../img/busca.png") no-repeat center right 10px  ;
+    padding: 24px;
+    border-radius: 24px;
+    border: solid 2px;
+    font-size: 14px !important;
+    color: #E7E7E7;
+    margin: 3px 230px 3px 30px;
+}
 
-  @keyframes modal {
-      from {
-          opacity: 0;
-          transform: translate3d(0, -60px, 0);          
-      }
-      to {
-          opacity: 1;
-          transform: translate3d(0, 0, 0);
-      }
-  }
+.hospede {
+    width: 70%;
+    height: 100%;
+    float: right;   
+    
+}
 
-  .mostrar .modal {
-      animation: modal .3s;
-  }
-
-  .fechar {
-      position: absolute;
-      font-size: 1.2em;
-      top: 0px;
-      left: 0px;
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      border: 4px solid white;
-      color: black;
-      cursor: pointer;
-
-  }
+.hospede ul li {
+    font-size: 16px !important;
+    font-family: inherit;   
+    color: black;
+}
