@@ -1,14 +1,12 @@
-# clone-airbnb
+# Clone-airbnb
  
-Desafio para treino projeto Formação Tech.
-Objetivo
-Criar uma pagina web semelhante ao site de hospedagens Airbnb que ira consumir uma API de quartos, utilizando JS vanilla e Flexbox.
+## Praticando - Criação de web site.
+## 🚀 Projeto Formação Tech 🚀
 
-Requisitos
-Tela com cards contendo:
+### Objetivo
+Criar uma pagina web semelhante ao site de hospedagens Airbnb, utilizando HTML, CSS e JS.
 
-Imagem ✔️
-Tipo de propriedade ✔️
 
+![site](https://github.com/DeniseOCrz/Clone-airbnb/blob/main/site.PNG)
 
 Veja o projeto em: 
