@@ -11,4 +11,4 @@ Imagem ✔️
 Tipo de propriedade ✔️
 
 
-Veja o projeto em: https://airbnb-clone-gama-desafio.netlify.app/
+Veja o projeto em: 
