@@ -8,6 +8,7 @@ header {
     background: white;
     width: 100%;
     height: 80px;
+    min-width: 264px;
 }
 
 .logo-parent {
@@ -38,8 +39,8 @@ header {
 
 ::-webkit-input-placeholder {
     color: #3A3A3A;
- } 
- 
+}
+
 a {
     text-decoration: none;
 }
@@ -57,8 +58,6 @@ a {
     display: flex;
     flex-direction: row;
     list-style: none;
-
-
 }
 
 .menu ul li {
@@ -69,7 +68,7 @@ a {
 
 .menu-2 {
     padding: 0;
-    margin: 0;   
+    margin: 0;
     width: 40%;
     position: relative;
     left: 300px;
@@ -96,11 +95,12 @@ a {
     margin-left: 0px;
     margin-right: 0px;
 }
+
 li#hospede {
     width: 200px;
     padding-right: 0px;
     padding-left: 0px;
-    padding-top: 20px;       
+    padding-top: 20px;
 }
 
 li#language {
@@ -117,21 +117,94 @@ li#language {
 }
 
 #language a {
-    font-size: px;
+    font-size: 20px;
     font-family: inherit !important;
 }
 
-.contato {    
+.contato {
     width: 40px;
     height: 1px;
     background: url("../img/contato.png") no-repeat center;
     padding: 20px;
     border-radius: 25px;
-    border: solid 2px;    
+    border: solid 2px;
     color: #E7E7E7;
     margin: 0 auto !important;
     cursor: pointer;
     position: relative;
     left: 80px;
     top: 3px;
+}
+
+/* CONTAINER BACKGROUND */
+
+.container-background {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 450px;
+    width: 100%;
+    background-image: url("../img/container.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .3);
+    background-blend-mode: multiply;
+}
+
+.container-background div h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 4em;
+    color: #ffffff;
+    position: relative;
+    right: 700px;
+    top: -120px;
+}
+
+/* WRAP */
+
+.wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content h2 {
+    font-size: 3em;
+    font-family: 'Teko', 'Roboto', sans-serif;
+    position: relative;
+    left: 40px;
+}
+
+div#alugue.content {
+    margin: 0;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cards-shadow {
+    margin: 0 10px;
+    width: 30%;
+    padding: 0 30px;
+    min-width: 264px;
+    height: 250px;
+}
+
+footer {
+    width: 100%;
+    background: #000;
+    color: #FFF;
+    height: 80px;
+    
+    justify-content: center;
+    align-items: center
+}
+
+footer a {
+    color: rgb(34, 60, 204);
 }
